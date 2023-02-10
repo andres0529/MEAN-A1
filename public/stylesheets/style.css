@@ -1,0 +1,29 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Barlow:wght@300&family=PT+Serif&family=Scope+One&display=swap');
+
+body {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Scope One', serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+main {
+  padding: 25px;
+}
+
+.navbar-dark {
+  background-color: #DB0007;
+}
+
+h1 {
+  color: #063672;
+}
+
+p{
+  text-align: justify;
+}
