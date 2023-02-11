@@ -1,29 +1,48 @@
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Barlow:wght@300&family=PT+Serif&family=Scope+One&display=swap');
-
 body {
-  font-family: 'Assistant', sans-serif;
-  font-family: 'Barlow', sans-serif;
-  font-family: 'PT Serif', serif;
-  font-family: 'Scope One', serif;
-}
-
-a {
-  color: #00B7FF;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 main {
+  font-family: "Nunito Sans", sans-serif;
   padding: 25px;
 }
 
 .navbar-dark {
-  background-color: #DB0007;
+  background-color: #212020;
 }
 
 h1 {
   color: #063672;
 }
 
-p{
+p {
   text-align: justify;
+}
+ul li {
+  list-style: none;
+}
+
+/* Style for Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+
+footer ul li{
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+footer ul li img{
+  height: 60%;
+}
+
+footer ul li:hover{
+  margin-bottom: 10px;
+  transition: 0.2s all ease;
 }
