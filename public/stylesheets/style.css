@@ -22,6 +22,43 @@ ul li {
   list-style: none;
 }
 
+/* Style For Wife page */
+#wife section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+#wife section img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+#wife section img:hover {
+  cursor: crosshair;
+  width: 350px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+/* Style For sisters page */
+#sister figure{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+#sister figure img{
+  object-fit: cover;
+  width: 300px;
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#sister p{
+  padding: 10px;
+} 
+
+
 /* Style for Footer */
 footer {
   position: fixed;
@@ -33,16 +70,16 @@ footer {
   background-color: #333;
 }
 
-footer ul li{
+footer ul li {
   padding-left: 10px;
   cursor: pointer;
 }
 
-footer ul li img{
+footer ul li img {
   height: 60%;
 }
 
-footer ul li:hover{
+footer ul li:hover {
   margin-bottom: 10px;
   transition: 0.2s all ease;
 }
