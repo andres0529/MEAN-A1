@@ -22,7 +22,7 @@ ul li {
   list-style: none;
 }
 
-/* Style For Wife page */
+/* ------------------- Style For Wife page -------------------*/
 #wife section {
   display: flex;
   width: 600px;
@@ -42,7 +42,7 @@ ul li {
   filter: contrast(120%);
 }
 
-/* Style For sisters page */
+/* -------------------- Style For sisters page ----------------*/
 #sister figure{
   width: 100%;
   text-align: center;
@@ -59,7 +59,7 @@ ul li {
 } 
 
 
-/* Style for Footer */
+/*---------------- Style for Footer ---------------*/
 footer {
   position: fixed;
   bottom: 0;
